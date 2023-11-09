@@ -1,0 +1,57 @@
+header {
+    background-color: #0B1C51;
+}
+
+header h1 {
+    color: white;
+    font-size: 54px;
+    margin: 0;
+    text-align: center;
+    padding-top: 20px;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul {
+    display: flex;
+    padding: 0;
+    list-style: none;
+}
+
+header nav ul li a {
+    color: white;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    margin: 0 20px 0 0;
+}
+
+header nav ul li:last-child a {
+    margin-right: 0;
+}
+
+/* desk top design below */ 
+@media all and (min-width: 600px) {
+    header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+    }
+
+    header h1 {
+        margin: 14px 0;
+        padding-top: 0;
+        font: 48px;
+    }
+
+    header nav {
+        margin-top: 8px;
+    }
+
+    header nav ul li a:hover {
+        color: lightgrey;
+    }
+}
